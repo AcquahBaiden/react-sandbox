@@ -16,8 +16,6 @@ const TableBody = (props) => {
           <tr key={index}>
             <td>{row.name}</td>
             <td>{row.job}</td>
-            <td>{row.startDate}</td>
-            <td>{row.endDate}</td>
           </tr>
         )
       })
