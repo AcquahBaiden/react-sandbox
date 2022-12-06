@@ -16,6 +16,8 @@ const TableBody = (props) => {
           <tr key={index}>
             <td>{row.name}</td>
             <td>{row.job}</td>
+            <td>{row.isAdmin}</td>
+            <td>{row.isSuper}</td>
           </tr>
         )
       })
