@@ -8,6 +8,12 @@ const TableHeader = () => {
           <th>Job</th>
         </tr>
       </thead>
+<thead>
+        <tr>
+          <th>Name</th>
+          <th>Job</th>
+        </tr>
+      </thead>
     )
   }
 const TableBody = (props) => {
